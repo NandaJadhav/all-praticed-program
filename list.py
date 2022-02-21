@@ -1,0 +1,9 @@
+l=['java','python','c','c++','javascript']
+l.append('html')
+l1=l.copy()
+l1.remove('c++')
+print(min(l))
+print(len(l))
+print(type(l))
+print(l[0:5])
+print(l[0:-1])
